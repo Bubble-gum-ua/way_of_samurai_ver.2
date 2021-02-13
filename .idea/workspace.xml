@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7ab91b-e70c-4213-a274-7414015430c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/My posts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/My posts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,8 @@
       <workItem from="1613141794967" duration="916000" />
       <workItem from="1613142756581" duration="101000" />
       <workItem from="1613142948237" duration="15146000" />
-      <workItem from="1613224663967" duration="2548000" />
+      <workItem from="1613224663967" duration="2704000" />
+      <workItem from="1613239652873" duration="3380000" />
     </task>
     <task id="LOCAL-00001" summary="Started a new proj">
       <created>1613218399139</created>
@@ -83,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613223675482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added &quot;NavLink&quot;. Some styles.">
+      <created>1613227281035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613227281035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started a new proj" />
     <MESSAGE value="Added routing for Profile &amp; Messages pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added routing for Profile &amp; Messages pages" />
+    <MESSAGE value="Added &quot;NavLink&quot;. Some styles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;NavLink&quot;. Some styles." />
   </component>
 </project>

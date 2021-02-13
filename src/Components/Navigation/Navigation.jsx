@@ -12,8 +12,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         marginRight: theme.spacing(2),
-        boxShadow: "none",
-
+        boxShadow: "none"
     },
 }));
 

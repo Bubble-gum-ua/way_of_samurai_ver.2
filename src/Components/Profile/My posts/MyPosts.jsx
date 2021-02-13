@@ -1,11 +1,11 @@
 import React from "react";
-import {Button, TextareaAutosize} from "@material-ui/core";
+import {Button, Input} from "@material-ui/core";
 import Post from "./Post/Post";
 
 const MyPosts = () => {
     return (
         <div>
-            <TextareaAutosize> Here </TextareaAutosize>
+            <Input> Here </Input>
             <Button> ADD POSt</Button>
             <Post message=" HERE WE go again"/>
             <Post message=" But we afraid"/>
