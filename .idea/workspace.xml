@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7ab91b-e70c-4213-a274-7414015430c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/way_of_samurai_ver.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navigation/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,7 +66,8 @@
       <updated>1613141792723</updated>
       <workItem from="1613141794967" duration="916000" />
       <workItem from="1613142756581" duration="101000" />
-      <workItem from="1613142948237" duration="14770000" />
+      <workItem from="1613142948237" duration="15146000" />
+      <workItem from="1613224663967" duration="2548000" />
     </task>
     <task id="LOCAL-00001" summary="Started a new proj">
       <created>1613218399139</created>
@@ -82,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613218399139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added routing for Profile &amp; Messages pages">
+      <created>1613223675482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613223675482</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,9 +99,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started a new proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started a new proj" />
+    <MESSAGE value="Added routing for Profile &amp; Messages pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added routing for Profile &amp; Messages pages" />
   </component>
 </project>

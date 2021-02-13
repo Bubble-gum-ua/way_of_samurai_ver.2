@@ -1,0 +1,5 @@
+.nav a.active {
+    color: red;
+    box-shadow: 2px 5px 3px #286a5a;
+    text-decoration: none;
+}
