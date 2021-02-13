@@ -4,11 +4,12 @@ import Navigation from "./Components/Navigation/Navigation";
 import Profile from "./Components/Profile/Profile";
 import Footer from "./Components/Footer/Footer";
 import {Grid, makeStyles, Paper} from "@material-ui/core";
+import Dialogs from "./Components/Dialogs/Dialogs";
+import {Route, BrowserRouter} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-
     },
     paper: {
         padding: theme.spacing(2),
@@ -20,25 +21,28 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function App() {
+
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
-                    <Paper className={classes.paper}><Header/></Paper>
+        <BrowserRouter>
+            <div className={classes.root}>
+                <Grid container spacing={3}>
+                    <Grid item xs={12}>
+                        <Paper className={classes.paper}><Header/></Paper>
+                    </Grid>
+                    <Grid item xs={12} sm={2}>
+                        <Paper className={classes.paper}><Navigation/></Paper>
+                    </Grid>
+                    <Grid item xs={12} sm={10}>
+                        <Paper className={classes.paper}><Route path="/profile" component={Profile}/>
+                            <Route path="/dialogs" component={Dialogs}/></Paper>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Paper className={classes.paper}><Footer/></Paper>
+                    </Grid>
                 </Grid>
-                <Grid item xs={12} sm={3}>
-                    <Paper className={classes.paper}><Navigation/></Paper>
-                </Grid>
-                <Grid item xs={12} sm={9}>
-                    <Paper className={classes.paper}><Profile/></Paper>
-                </Grid>
-                <Grid item xs={12}>
-                    <Paper className={classes.paper}><Footer/></Paper>
-                </Grid>
-
-            </Grid>
-        </div>
+            </div>
+        </BrowserRouter>
     );
 };
